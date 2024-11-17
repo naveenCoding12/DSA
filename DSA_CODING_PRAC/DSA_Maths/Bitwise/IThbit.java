@@ -1,4 +1,4 @@
-package DSA_Maths;
+package DSA_Maths.Bitwise;
 
 public class IThbit {
 
