@@ -1,0 +1,20 @@
+For leap year
+    -year % 4==0
+    -year % 100 !=0
+    -year % 400 ==0
+
+For Multiplication table
+    - %d %s like that in printf statement
+    -for(i=10)
+        print("%d * %d = %d",num,i,num*i)
+
+For LCM and HCF
+    -HCF
+        while(b!=0){
+            temp=b;
+            b=a % b
+            a=temp
+        }
+        return a;
+     -LCM
+        a*b / HCF(a,b)
